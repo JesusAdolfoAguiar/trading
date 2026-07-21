@@ -1,0 +1,31 @@
+I'm expanding a tradig project. This is my current way of working:
+I use tradezella mainly for tracking (The mental game systme) we've develop.
+Tradezella is the source of truth, as there is where I capture the screenshots
+of my entries/market pictures, and, most importantly, real time notes
+of each trade.
+The end goal is having a more automated review system (as a dev, you know I try to
+avoid UI interactions).
+One caveat is that, as far as I know, tradezella doesn';t have a publick API
+to connect and download and pull out specific data.
+
+About the trading review system (how it works)
+0) The memory file would be the rules (strategy, rubricks, etc)
+1) The input is the raw, realtime notes (raw text) and relevant screenshots of the market 
+2) The output would be, each trade tagged (accepted categories would be provided my be in input), suggested explanation (from the agent) of why the choosing, and
+most importantly, suggesting tags for cases in which ther raw notes cannot pull
+out that information explecitly (output format will be designed.)
+3) trading rating based on rubricks (to provide)
+4) the tags  will be then manually applied to tradezella, or by autotagger agent
+if the token count allow it. 
+
+This will run manually daily, preferably automatically, with a notification like
+'its x, fill your trading journal'.
+This will live in a sandboxed repo, pushed daily to my personal github repo. 
+
+Current stack: gemini, antigravity. Suggest any other tool that could be useful.
+
+Coach me, and let's start building
+
+
+
+
