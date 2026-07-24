@@ -53,3 +53,14 @@ price broke po1 with strength. 20 minutes time SL. no reversal signs yet.
 Price broken and going to retest poi 1. if breaks I'm closing.
 Post: price closed. It rejected mid POI of the next zone. For tomorrow: the exhaustion at POI needs to be at least 5 minutes (5 m1 candles)
 
+
+/*/*/*/
+24/07/2026
+ade 1: 
+Pre: bullish displacement created. waiting for exhaustion
+After 2 hours of range, the real displacement is happening as 11.14 am
+In: 
+Post: m5 clean displacement appeared> yes, proper ltf confirmation for sells > no. price barely touched the POI and bounced back. my accepted LTF confirmation: it needs to touch it, slow down around it, even do a fakeout ad mid poi. If it's a touch and bounce, it's a not entry. 
+3 hours in. today price move was not within my edge, within my time window. no trade day. 
+Trade 2: 
+
