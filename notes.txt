@@ -1,3 +1,17 @@
+*/*/*/Needed tags
+
+Now, we need to add other tags. 
+
+Trading addiction (compulsive-impulse behaviors, C game): addiction
+
+not addiction
+
+*/*/*//*
+Emotional state
+
+
+
+
 I'm expanding a tradig project. This is my current way of working:
 I use tradezella mainly for tracking (The mental game systme) we've develop.
 Tradezella is the source of truth, as there is where I capture the screenshots
