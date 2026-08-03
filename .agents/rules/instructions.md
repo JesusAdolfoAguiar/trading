@@ -110,3 +110,5 @@ You must use the exact format below. Repeat the block for every trade or non-tra
 
 **Why:**
 * [Brief bulleted explanation of why these specific tags and star ratings were chosen based on the text. Explicitly state if the technical edge was followed/violated, and justify the B-Game/C-Game rating if applicable.]
+
+**Trade Link:** [URL / Link from Tradezella]
