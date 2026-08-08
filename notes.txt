@@ -1,0 +1,5 @@
+Awesome. You're getting it. Something to clarify, those mid-POI rejections you're seeing are the 'perfect reversal scenario'. As we know, the market is probabilistic,
+  not deterministic, and aven though these levels are proven to be extremely accurate, they'll always have a margin of error, that is, price might not always 'sweep' the
+  $5.75 levels before a reversal. There are many times that it doesn't quite get there (price can reach the main POI, and stay there. Given this info, on the same picture
+  we've been working on, see the
+────────────────────────────────────
