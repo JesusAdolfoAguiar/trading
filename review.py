@@ -2,17 +2,33 @@
 import os
 import sys
 import subprocess
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # 1. Init: Use passed date or default to today
 date_str = sys.argv[1] if len(sys.argv) > 1 else datetime.today().strftime('%Y-%m-%d')
 base_dir = os.path.expanduser("~/personal/trading")
 
 # 2. Paths
-ss_dir = os.path.join(base_dir, f"journals/screenshots/{date_str}")
-raw_file = os.path.join(base_dir, f"journals/raw/{date_str}-raw.md")
+def get_week_folder(d_str):
+    try:
+        d = datetime.strptime(d_str, '%Y-%m-%d')
+    except ValueError:
+        return d_str
+    mon = d - timedelta(days=d.weekday())
+    fri = mon + timedelta(days=4)
+    mon_month = mon.strftime('%B').lower()
+    fri_month = fri.strftime('%B').lower()
+    if mon_month == fri_month:
+        return f"{mon_month} {mon.day}-{fri.day}"
+    else:
+        return f"{mon_month} {mon.day}-{fri_month} {fri.day}"
+
+week_folder = get_week_folder(date_str)
+
+ss_dir = os.path.join(base_dir, f"journals/screenshots/{week_folder}/{date_str}")
+raw_file = os.path.join(base_dir, f"journals/raw/{week_folder}/{date_str}-raw.md")
 if not os.path.exists(raw_file):
-    alt_raw_file = os.path.join(base_dir, f"journals/raw/{date_str}.md")
+    alt_raw_file = os.path.join(base_dir, f"journals/raw/{week_folder}/{date_str}.md")
     if os.path.exists(alt_raw_file):
         raw_file = alt_raw_file
 

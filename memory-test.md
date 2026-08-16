@@ -3,8 +3,10 @@
 This document stores the specific criteria for identifying valid and invalid Fair Value Gaps (FVGs) based on visual training and chart examples.
 
 ## 1. Core Definition
-* **Bullish FVG:** A gap between the high wick of Candle 1 and the low wick of Candle 3 in a 3-candle sequence, leaving a portion of Candle 2's body unmitigated by either wick.
-* **Bearish FVG:** A gap between the low wick of Candle 1 and the high wick of Candle 3 in a 3-candle sequence, leaving a portion of Candle 2's body unmitigated by either wick.
+* **Fair Value Gap (FVG):** A directional move between POIs where all candles are in the same direction, regardless of whether it is 1 candle or 10 candles.
+* **Bearish FVG:** All candles in the sequence from POI to POI must close bearish.
+* **Bullish FVG:** All candles in the sequence from POI to POI must close bullish.
+* **A+ FVG:** The sequence consists of strong, wick-less candles. Candles with wicks are acceptable (lower probability) as long as they all close in the same direction.
 
 ## 2. Valid FVG Criteria
 * **Example 1 (Bearish FVG after Main POI Rejection):** A valid FVG often forms *after* price successfully interacts with and rejects a Main POI (e.g., rejecting the 4369.5 level). The subsequent FVG provides confirmation of the reversal and often targets the next grid levels (e.g., dropping to 4346.5).
