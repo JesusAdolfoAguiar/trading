@@ -74,10 +74,10 @@ print("✅ Data verified. Handing off to Agent...")
 # 7. Execute Engine
 try:
     # Invokes your Antigravity agent CLI. Adjust arguments if your CLI syntax differs.
-    subprocess.run(["antigravity", "--skill", "trade-review", "--date", date_str], check=True)
+    subprocess.run(["agy", "--skill", "trade-review", "--date", date_str], check=True)
     print("\n🏁 Pipeline complete.")
 except (FileNotFoundError, PermissionError):
-    print("\n⚠️ 'antigravity' command not found in PATH. Run the agent step manually.")
+    print("\n⚠️ 'agy' command not found in PATH. Run the agent step manually.")
     sys.exit(1)
 except subprocess.CalledProcessError as e:
     print(f"\n❌ Agent execution failed with error code {e.returncode}")
