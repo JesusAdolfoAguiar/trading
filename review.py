@@ -65,7 +65,7 @@ if not os.listdir(ss_dir):
     print(f"❌ Error: No screenshots found in {ss_dir}. Aborting.")
     sys.exit(1)
 
-if os.path.getsize(raw_file) < 25: 
+if os.path.getsize(raw_file) <= 25: 
     print(f"❌ Error: Raw file {raw_file} appears empty. Aborting.")
     sys.exit(1)
 
