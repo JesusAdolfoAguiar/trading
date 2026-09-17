@@ -38,8 +38,22 @@ os.makedirs(ss_dir, exist_ok=True)
 os.makedirs(os.path.dirname(raw_file), exist_ok=True)
 
 if not os.path.exists(raw_file):
+    scaffold_content = f"""# Raw Notes: {date_str}
+
+Trade 1:
+
+1. PRE-TRADE: (Approaching H1 POI / M5/M1 Execution)
+
+
+2. IN-TRADE: (Hold / Urge to Meddle / Managing Winner)
+
+
+3. POST-TRADE & CIRCUIT BREAKER: (Invalidation / Ego Traps)
+
+
+"""
     with open(raw_file, 'w') as f:
-        f.write(f"# Raw Notes: {date_str}\n\n")
+        f.write(scaffold_content)
 
 # WSL -> Windows Path Converter
 def wsl_to_win_path(wsl_path):
