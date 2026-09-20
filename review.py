@@ -40,15 +40,38 @@ os.makedirs(os.path.dirname(raw_file), exist_ok=True)
 if not os.path.exists(raw_file):
     scaffold_content = f"""# Raw Notes: {date_str}
 
-Trade 1:
+=========================================
+SESSION A (8:00 AM - 9:15 AM)
+- Draw on Liquidity: 
+- Bullet Count: 0/2
+=========================================
 
-1. PRE-TRADE: (Approaching H1 POI / M5/M1 Execution)
+Trade 1 (Session A):
+
+1. PRE-TRADE: (Active Waiting / M5/M1 Execution)
 
 
-2. IN-TRADE: (Hold / Urge to Meddle / Managing Winner)
+2. IN-TRADE: (Timeframe Shift to M15/H1 / Managing Winner)
 
 
-3. POST-TRADE & CIRCUIT BREAKER: (Invalidation / Ego Traps)
+3. POST-TRADE & CIRCUIT BREAKER: (Exit Sweet Spot / Invalidation)
+
+
+=========================================
+SESSION B (9:30 AM - 11:30 AM)
+- Draw on Liquidity: 
+- Bullet Count: 0/2
+=========================================
+
+Trade 2 (Session B):
+
+1. PRE-TRADE: (Active Waiting / M5/M1 Execution)
+
+
+2. IN-TRADE: (Timeframe Shift to M15/H1 / Managing Winner)
+
+
+3. POST-TRADE & CIRCUIT BREAKER: (Exit Sweet Spot / Invalidation)
 
 
 """

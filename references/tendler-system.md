@@ -91,3 +91,12 @@ Permanent resolution requires mapping your emotional patterns, identifying early
     *   *FOMO:* "The market is a constant stream of opportunities—I will not capture all of them."
     *   *Mistake Tilt:* "Hating mistakes is like hating to learn; the money lost is an investment in developing a bigger edge."
     *   *Overconfidence:* "Fantasizing about the profit doesn't mean I'll make it. Do your job."
+
+## 5. The Mechanics of Waiting (Mental Execution)
+Willpower is finite. If you rely purely on willpower to wait while staring at a 1-minute chart, you will fail. You must use structural barriers to systemize patience.
+
+### The 4 Pillars of Waiting
+1.  **The "If/Then" Alert System (Physical Separation):** If price is not at your POI, or if you are mid-trade in the "void", set an alert 5-10 pips away. Switch tabs or walk away. You are forbidden from watching the candle form.
+2.  **The Physical Hand Barrier:** When price *is* at your POI and you are waiting for LTF confirmation, take your hand off the mouse. Cross your arms or put them in your lap to break the impulse-to-click circuit.
+3.  **Clock-Based Waiting:** If you need an M15 candle to close and it's x:04, look at the clock and say out loud: *"I have 11 minutes where nothing on this screen matters."*
+4.  **Active Waiting (Mental Rehearsal):** Talk out loud while waiting. Plan the invalidation: *"If this candle closes as a massive bearish engulfing, the setup is dead and I cancel my limit."* Give your brain an analytical job to kill the anxiety.
