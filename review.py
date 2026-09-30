@@ -40,6 +40,21 @@ os.makedirs(os.path.dirname(raw_file), exist_ok=True)
 if not os.path.exists(raw_file):
     scaffold_content = f"""# Raw Notes: {date_str}
 
+Phase 2: Establishing Market Conditions (Macro & H1 View)
+Define the environment (Trending, Ranging, or No Man's Land) to locate the core trade ideas for the session.
+
+Chart Checks:
+1- What is the HTF Bias / True Draw on Liquidity? (Are we sweeping recent intraday pools, or expanding toward a massive Daily/Weekly target?)
+2- Move Length / ATR Check: Has the market already moved 400-500 pips directionally? (If yes, momentum is exhausted. Do not chase continuation).
+3- What is the H1 Trap? (Are we sweeping an Asia/London high/low, or retracing into an HTF FVG?)
+4- Is the target clear? (Aiming for 200-400 pips to the next major swing high/low).
+
+Notes:
+1- 
+2- 
+3- 
+4- 
+
 =========================================
 SESSION A (8:00 AM - 9:15 AM)
 - Draw on Liquidity: 
